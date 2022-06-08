@@ -1,0 +1,1 @@
+cinema_api_key = "debef6870ae59e9aa986a5bd3f6e2113"

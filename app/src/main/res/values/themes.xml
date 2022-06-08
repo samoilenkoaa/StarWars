@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StarWars" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="DetailTitleTextViewStyle">
+        <item name="android:layout_margin">@dimen/small_layout_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/big_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DetailSecondaryFieldsStyle">
+        <item name="android:layout_margin">@dimen/small_layout_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/secondaryLightColor</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="DetailOverviewTextViewStyle">
+        <item name="android:layout_marginTop">@dimen/big_layout_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/small_layout_margin</item>
+        <item name="android:layout_marginBottom">@dimen/big_layout_margin_bottom</item>
+        <item name="android:textColor">@color/secondaryLightColor</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="DetailCastsTextViewStyle">
+        <item name="android:layout_marginTop">@dimen/big_layout_margin_top</item>
+        <item name="android:layout_margin">@dimen/small_layout_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:text">@string/casts_title</item>
+    </style>
+
+    <style name="DetailNextCastsTextViewStyle">
+        <item name="android:layout_marginTop">@dimen/big_layout_margin_top</item>
+        <item name="android:layout_margin">@dimen/small_layout_margin</item>
+        <item name="android:textColor">@color/primaryCastColor</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:text">@string/view_all</item>
+    </style>
+
+
+    <style name="SynopsisViewStyle">
+        <item name="android:layout_marginTop">@dimen/big_layout_margin_top</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/synopsis_text_size</item>
+        <item name="android:text">@string/synopsis_title</item>
+        <item name="android:layout_marginEnd">@dimen/small_layout_margin</item>
+        <item name="android:layout_marginBottom">@dimen/big_layout_margin_bottom</item>
+
+    </style>
+
+    <style name="DetailItemNameStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="MovieItemVoteAverageTextViewStyle">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingStart">@dimen/medium_padding_start</item>
+        <item name="android:textColor">@color/secondaryLightColor</item>
+        <item name="android:textSize">@dimen/little_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

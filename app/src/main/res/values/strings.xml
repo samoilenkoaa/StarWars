@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="casts_title">Casts &amp; Crew</string>
+    <string name="synopsis_title">Synopsis</string>
+    <string name="view_all">View All</string>
+
+</resources>
