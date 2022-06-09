@@ -27,6 +27,11 @@ class HomeViewModel @Inject constructor(
     private val _isLoadingLiveData = MutableLiveData<Boolean>()
     val isLoadingLiveData: LiveData<Boolean> = _isLoadingLiveData
 
+
+    init {
+        refreshCinema()
+    }
+
     fun refreshCinema() {
         _isLoadingLiveData.value = true
         getMovieListUseCase.getPopularMovieList()
